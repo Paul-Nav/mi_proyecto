@@ -5,7 +5,7 @@ archivo_txt = 'e-commerce.txt'
 
 try:
     # Leer el archivo TXT
-    data = pd.read_csv(archivo_txt, delimiter='|')
+    data = pd.read_csv(archivo_txt, delimiter=' ')
     
     # Guardar los datos en un archivo CSV temporal
     archivo_csv = 'clientes.csv'
